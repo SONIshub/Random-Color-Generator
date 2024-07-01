@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random color generator</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    .container{
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        align-items:center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    button{
+        width: 120px;
+        height: 40px;
+        border-radius: 20px;
+        background-color: brown;
+        border: none;
+        color: white;
+        cursor: pointer;
+    }
+    p{
+        margin-top: 20px;
+        color: black;
+        border: 2px solid brown;
+        padding: 10px;
+        display: none;
+        border-radius: 12px;
+        box-shadow: 0px 5px 10px 0px black, 0px 5px 20px 0px black;
+    }
+</style>
+<body>
+    <div class="container">
+        <button>Click</button>
+        <p></p>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
